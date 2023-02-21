@@ -35,7 +35,7 @@ function CreditCard({
         style={logoStyle}
       ></img>
       <div>
-        <div>***********{number.slice(12, 16)}</div>
+        <div>***********{number.slice(-4)}</div>
         <div>
           <span>
             Expires {expirationMonth}/{expirationYear}
